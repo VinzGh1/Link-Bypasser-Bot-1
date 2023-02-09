@@ -12,9 +12,9 @@ from bypasser import ddllist
 
 
 # bot
-bot_token = os.environ.get("TOKEN", "")
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
+bot_token = os.environ.get("TOKEN", "5275865551:AAFvSvdn-wltqw5sU2sUiVaWLdZ3eRUAoyg")
+api_hash = os.environ.get("HASH", "2589472") 
+api_id = os.environ.get("ID", "5243628014db9798d6775b330e542602")
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)  
 
 
